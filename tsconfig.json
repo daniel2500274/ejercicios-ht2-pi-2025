@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "outDir": "./build",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": [
+    "*/*.ts" /* El asterisco solo se refiere a archivos .ts en el directorio raíz del proyecto */
+  ],
+  "exclude": [
+    "./node_modules"
+  ]
+}

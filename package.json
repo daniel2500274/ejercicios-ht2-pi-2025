@@ -1,14 +1,14 @@
 {
   "name": "ejercicios-ht2-pi-2025",
   "version": "1.0.0",
-  "description": "",
+  "description": "Este repositorio contiene **ejercicios prácticos** organizados por tema y nivel de dificulta.   Los ejercicios están pensados para reforzar los conocimientos adquiridos durante el curso de Programación I y prepararlos para el examen final.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/daniel2500274/ejercicios-ht2-pi-2025.git"
+    "url": "git+https://github.com/daniel2500274/ejercicios-ht2-pi-2025.git"
   },
   "private": true,
   "dependencies": {
@@ -17,5 +17,14 @@
     "readline-sync": "^1.4.10",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3"
-  }
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/daniel2500274/ejercicios-ht2-pi-2025/issues"
+  },
+  "homepage": "https://github.com/daniel2500274/ejercicios-ht2-pi-2025#readme"
 }
