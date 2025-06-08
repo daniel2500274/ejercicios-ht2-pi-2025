@@ -35,14 +35,20 @@ if (!isNaN(numeroDia)){
 }
 
 // Paso 3: Solicitar color del semáforo
-// const color = ...
+const color = readline.question("¿Cual es tu color favorito? \n >")
 
 // Paso 4: switch para interpretar semáforo
-// switch (color) {
-//     case 'verde':
-//         ...
-//         break
-//     ...
-//     default:
-//         ...
-// }
+switch (color   ) {
+    case "verde":
+        console.log('Puede Avanzar')
+        break;
+    case "rojo":
+        console.log('Detengase')
+        break;
+    case "amarillo":
+        console.log('Pase con precaución')
+        break;
+        default:
+            console.log('Ingresaste un color erroneo')
+        break;
+}
